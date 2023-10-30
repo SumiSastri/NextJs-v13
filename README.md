@@ -3,7 +3,7 @@ Demo-app for NextJs version 13
 
 This application demo's the key features of NextJs v13.0.2 
 
-NextJs is updated every month so check the official NextJS docs.
+NextJs is updated every month so check the official [NextJS docs](https://nextjs.org/docs)
 
 _Pre-requisites_
 NodeJs v14 and higher
