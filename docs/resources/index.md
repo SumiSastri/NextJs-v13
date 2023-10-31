@@ -1,7 +1,11 @@
-Useful resources:
+---
+layout: default
+title:  Useful resources
+parent: Resources
+has_children: true
+last_updated: Oct 2023
+---
 
-[NextJS docs](https://nextjs.org/docs)
+#  Useful resources
 
-[NetNinja Crash Course](https://www.youtube.com/watch?v=TJQbDPGzm0Y&list=PL4cUxeGkcC9jZIVqmy_QhfQdi6mzQvJnT)
-
-[PluralSight](https://app.pluralsight.com/library/courses/nextjs-13-fundamentals/table-of-contents)
+[NextJS docs](https://nextjs.org/docs). For more resources see child pages.

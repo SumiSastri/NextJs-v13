@@ -22,8 +22,9 @@ _Pre-requisites_
 
 _Demo Covers_
 1) Scaffolding
-2) Server Components
-3) Dynamic Routing
+2) Pages and Routes
+3) Server Components
+4) Dynamic Routing
 
 
 _Repo access & scripts_
