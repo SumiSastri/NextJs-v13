@@ -32,6 +32,7 @@ export default async function TicketList() {
   // let the return only render jsx
   return (
     <main>
+        <div>TEST DATA FROM JSON SERVER: {JSON.stringify(tickets, null, 8)}</div>
        <h2>
         Tickets List
           </h2>
