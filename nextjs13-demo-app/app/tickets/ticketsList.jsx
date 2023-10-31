@@ -6,8 +6,13 @@ async function getTickets() {
       revalidate: 0 // use 0 to opt out of using cache
     }
   })
-  return response.json();
+  if (response.ok) { console.log(response, "SUCCESS") }
+  if (!response.ok) {
+    throw Error(Error, "ERROR");
+  }
+  return response.json()
 }
+
 
 export default async function TicketList() {
   // fetch data, assign data to the jsx to be rendered
