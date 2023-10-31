@@ -23,3 +23,4 @@ _Set up_
 4) Folders create routes and nested folders create nested routes eg: `http://localhost:3000/events/nov-2023` are in nested folders in the app folder
 
 These pages are server-components by default.
+[NextJs docs on Routing](https://nextjs.org/docs/app/building-your-application/routing)
