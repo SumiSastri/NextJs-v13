@@ -11,4 +11,6 @@ last_updated: Oct 2023
 
 Tutorial 4: [Layouts and Links](https://www.youtube.com/watch?v=vwg4Wrk-kWE)
 
+Tutorial 6: [Data-fetching](https://www.youtube.com/watch?v=PAXWRgEo7Ns)
+
 [PluralSight](https://app.pluralsight.com/library/courses/nextjs-13-fundamentals/table-of-contents)
