@@ -1,4 +1,5 @@
 # NextJs-v13
+
 Demo-app for NextJs version 13
 
 This application demo's the key features of NextJs v13.0.2 
@@ -24,7 +25,9 @@ _Demo Covers_
 1) Scaffolding
 2) Pages and Routes
 3) Server Components
-4) Dynamic Routing
+4) Link and Image Components
+5) Data fetching with mocks & mock server json-server which is an npm package
+
 
 
 _Repo access & scripts_
@@ -32,4 +35,10 @@ _Repo access & scripts_
 - cd into the app
 - `README.md` has the boiler plate docs for NextJs 13 and scripts
 - The docs folder has more documentation on the app and the resources used to create this app
-- A dev branch has been created and sub-branches for each section of the demo
+- A `Dev` branch has been created and sub-branches for each section of the demo
+
+Frontend dev server`npm run dev`
+Open [http://localhost:3000](http://localhost:3000) with your browser.
+
+Backend `json-server --watch --port 4000 ./_db/db.json` 
+Open [http://localhost:4000/tickets](http://localhost:4000/tickets) with your browser.

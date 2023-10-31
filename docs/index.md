@@ -1,11 +1,25 @@
+---
+layout: default
+title: App architecture
+has_children: true
+parent: docs
+last_updated: Oct 2023
+---
+
 # Scaffolding:
 
 _Pre-install checks_
 Ensure you have the right version of node
 
-- [Node and nvm install guide from freecodecamp for ongoing package management](https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/)
 
-- Using [nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+# App architecture
+
+Front-end - NextJs v13
+- Server components
+- Client components
+- Tailwind CSS
+
+Back-end - json server with mock-data
 
 - Keeping the [.nvmrc file] (https://kl1p.com/what-you-need-to-know-about-nvmrc-tips-and-tricks-with-step-by-step-code-examples/) up to date in the root of the repo
 
