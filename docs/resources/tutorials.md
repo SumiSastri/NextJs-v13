@@ -7,7 +7,8 @@ last_updated: Oct 2023
 
 # Tutorials
 
-A really good crash course to get you started
+A really good crash course to get you started - but not great for CRUD/ auth and routing
+
 - [NetNinja Crash Course](https://www.youtube.com/watch?v=TJQbDPGzm0Y&list=PL4cUxeGkcC9jZIVqmy_QhfQdi6mzQvJnT)
 
 Some standout tutorials in the series
@@ -22,3 +23,5 @@ I found this course boring and because you have to download files, you do not kn
 
 - [PluralSight](https://app.pluralsight.com/library/courses/nextjs-13-fundamentals/table-of-contents) 
 
+A seven-hour free course
+[Dave Gray](https://www.youtube.com/watch?v=843nec-IvW0)
