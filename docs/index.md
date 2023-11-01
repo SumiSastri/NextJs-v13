@@ -6,11 +6,6 @@ parent: docs
 last_updated: Oct 2023
 ---
 
-# Scaffolding:
-
-_Pre-install checks_
-Ensure you have the right version of node
-
 
 # App architecture
 
@@ -20,21 +15,3 @@ Front-end - NextJs v13
 - Tailwind CSS
 
 Back-end - json server with mock-data
-
-- Keeping the [.nvmrc file] (https://kl1p.com/what-you-need-to-know-about-nvmrc-tips-and-tricks-with-step-by-step-code-examples/) up to date in the root of the repo
-
-_Install NextJs 13_
-Install - `npx create-next-app@13.4.9`
-App name - nextjs13-demo-app (note can not contain upper case)
-Not a TS app
-In v13 there is no requirement for a `src` folder
-NextJS 13 ships with an app folder for code; a public folder for static assets/ in root config files and a .gitignore file - you can add addtional ignore files if required and a `.env` file for access tokens and secrets.
-
-_Set up_
-1) Clean up `page.js` - remove boiler plate
-2) Clean up `globals.css` - remove boiler plate styling but keep imports
-3) Set up pages and routes in app folder - `page.jsx` is the equivalent of `index.jsx`
-4) Folders create routes and nested folders create nested routes eg: `http://localhost:3000/events/nov-2023` are in nested folders in the app folder
-
-These pages are server-components by default.
-[NextJs docs on Routing](https://nextjs.org/docs/app/building-your-application/routing)

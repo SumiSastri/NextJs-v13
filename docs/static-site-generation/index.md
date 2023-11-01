@@ -1,7 +1,6 @@
 ---
 layout: default
 title: What is a static-site generator
-has_children: true
 parent: static-site-generation
 last_updated: Oct 2023
 ---

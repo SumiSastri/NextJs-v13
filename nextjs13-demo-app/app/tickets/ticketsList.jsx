@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 const ticketDataURL = "http://localhost:4000/tickets"
 
 async function getTickets() {
@@ -13,17 +15,18 @@ async function getTickets() {
   return response.json()
 }
 
-
-export default async function TicketList() {
+export default async function TicketsList() {
   // fetch data, assign data to the jsx to be rendered
   const tickets = await getTickets()
-  const ticketList =  tickets.map((ticket) => (
+  const ticketsList =  tickets.map((ticket) => (
     <div key={ticket.id} className="card my-5">
       <h3>{ticket.title}</h3>
       <p>{ticket.body.slice(0, 200)}...</p>
       <div className={`pill ${ticket.availability}`}>
         {ticket.availability} availability
       </div>
+      {/* this id comes from the key not from the fetch route by params id */}
+      <Link href={`/tickets/${ticket.id}`}>See more</Link>
     </div>
   ))
   {tickets.length === 0 && (
@@ -37,7 +40,7 @@ export default async function TicketList() {
         Tickets List
           </h2>
           <p>Terms & Conditions of Sale</p> <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero repellendus tempore, exercitationem odit, quasi doloremque possimus recusandae alias sequi totam soluta natus iure eius.</p>
-   <div>{ticketList}</div>
+   <div>{ticketsList}</div>
     </main>
   )
 }
