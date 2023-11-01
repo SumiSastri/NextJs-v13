@@ -25,3 +25,6 @@ I found this course boring and because you have to download files, you do not kn
 
 A seven-hour free course
 [Dave Gray](https://www.youtube.com/watch?v=843nec-IvW0)
+
+Authentication with REST and MongoDB
+[GT Coding](https://www.youtube.com/watch?v=PEMfsqZ2-As)

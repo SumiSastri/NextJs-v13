@@ -27,6 +27,7 @@ _Demo Covers_
 3) Server Components
 4) Link and Image Components
 5) Data fetching with mocks & mock server json-server which is an npm package
+6) Authenticated REST routes with MongoDB and bcrypt tokens
 
 
 _Repo access & scripts_
