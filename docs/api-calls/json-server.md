@@ -20,6 +20,3 @@ To fetch data this app uses the mock-server `json-server`  which is an npm packa
 ```
 
 You can now open [http://localhost:4000/tickets](http://localhost:4000/tickets) with your browser.
-
-There is a great explaination of how data is fetched and cached in this Net Ninja Tutorial which includes how to set up a mock-server- 
-[Tutorial 6 Data-fetching](https://www.youtube.com/watch?v=PAXWRgEo7Ns)

@@ -6,6 +6,7 @@ parent: docs
 last_updated: Oct 2023
 ---
 
+
 # App architecture
 
 Front-end - NextJs v13

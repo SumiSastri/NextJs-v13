@@ -27,7 +27,7 @@ _Demo Covers_
 3) Server Components
 4) Link and Image Components
 5) Data fetching with mocks & mock server json-server which is an npm package
-
+6) Forms
 
 _Repo access & scripts_
 - App in `nextjs13-demo-app`

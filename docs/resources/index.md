@@ -12,4 +12,4 @@ last_updated: Oct 2023
 
 [NextJs docs on Routing](https://nextjs.org/docs/app/building-your-application/routing)
 
-[More in the NextJS docs on styling](https://nextjs.org/docs/app/building-your-application/styling)
+[NextJS docs on styling](https://nextjs.org/docs/app/building-your-application/styling)
