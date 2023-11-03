@@ -39,6 +39,11 @@ export default async function TicketsList() {
        <h2>
         Tickets List
           </h2>
+          <div className="flex justify-center my-8">
+        <Link href="/tickets/forms">
+          <button className="btn-primary">Create Tickets</button>
+        </Link>
+      </div>
           <p>Terms & Conditions of Sale</p> <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero repellendus tempore, exercitationem odit, quasi doloremque possimus recusandae alias sequi totam soluta natus iure eius.</p>
    <div>{ticketsList}</div>
     </main>

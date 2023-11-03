@@ -1,5 +1,7 @@
+import Link from 'next/link'
 import { notFound } from "next/navigation"
 export const dynamicParams = true // default val = true
+
 
 // REFACTOR due to Next13 serving up cache
 export async function generateStaticParams() {
@@ -26,6 +28,7 @@ async function getTicket(ticketId) {
        notFound()
   }
   return response.json()
+  
 }
 
 export default async function DisplayTicketDetails({ params }) {
@@ -37,6 +40,11 @@ export default async function DisplayTicketDetails({ params }) {
     <main>
       <nav>
       <h2>Ticket Details</h2>
+      <div className="flex justify-center my-8">
+        <Link href="/tickets/forms">
+          <button className="btn-primary">Update Ticket</button>
+        </Link>
+      </div>
       </nav>
       <div className="card">   
         <small>Thank you for the purchasing a ticket for the show. Your ticket will be sent to {displayTicket.user_email}</small>

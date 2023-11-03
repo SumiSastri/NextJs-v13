@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from "next/link"
 import { Suspense } from 'react'
 
-import Mountains from './components/mountains.jpg'
+import Mountains from './components/assets/mountains.jpg'
 import Loading from './loading'
 
 

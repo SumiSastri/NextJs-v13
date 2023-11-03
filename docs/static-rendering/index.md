@@ -1,14 +1,14 @@
 ---
 layout: default
-title: What is a static-rendering in NextJs 13
+title: What is static-rendering in NextJs 13
 has_children: true
 parent: static-site-generation
 last_updated: Oct 2023
 ---
 
-# What is a static-rendering in NextJS 13
+# What is static-rendering in NextJS 13
 
-Static rendering helps you create a page with an id and serve it up via the CDN (content delivery network) that NextJS serves up files from.
+Static rendering helps you create a page with an id and serve it up via the CDN (content delivery network) that NextJS serves up files from, the page is served at build-time, not run time.
 
 It is a bit like  SSG (static site generation) as it uses the same principle. SSG serves up the whole app by pre-rendering, this method `generateStaticParams()` from the NextJS 13 framework, only generates a single page by pre-rendering it.
 

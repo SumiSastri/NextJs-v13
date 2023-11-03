@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import Mountains from './mountains.jpg'
+import Mountains from './assets/mountains.jpg'
 
 export default function Navbar() {
   return (

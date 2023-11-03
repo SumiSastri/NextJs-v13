@@ -1,3 +1,4 @@
+import ContactForm from "./forms/contactPageForm";
 
 export default function Contact() {
     return (
@@ -5,6 +6,7 @@ export default function Contact() {
             <h2>
           Contact us
             </h2>
+            <ContactForm/>
       </main>
     )
   }
