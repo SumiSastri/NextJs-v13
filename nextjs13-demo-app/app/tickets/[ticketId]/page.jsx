@@ -2,7 +2,6 @@ import Link from 'next/link'
 import { notFound } from "next/navigation"
 export const dynamicParams = true // default val = true
 
-
 // REFACTOR due to Next13 serving up cache
 export async function generateStaticParams() {
   const res = await fetch('http://localhost:4000/tickets')
