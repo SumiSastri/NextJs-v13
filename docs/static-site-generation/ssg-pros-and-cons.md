@@ -9,14 +9,14 @@ last_updated: Oct 2023
 
 Static site generation (SSG) has both pros and cons.
 
-Pros
+_Pros_
 1) Good for SEO as the server gets back a content-rich, pre-rendered HTML page.
 2) Performant - as it is pre-rendered.
 3) Easy to maintain and update - based on templates that can be reused.
 4) Data sources are diverse - you can use content from Wordpress, e-commerce data from Shopify, back-end data from Firebase or a simple file system. 
 5) Too many options to choose from - each individual SSG service has its unique pros and cons over and above these listed.
 
-Cons
+_Cons_
 1) Code is repeated for each page, so hard to update and maintain
 2) The number of calls to the server slows down the performance of the site
 3) Usually does not contain dynamic data

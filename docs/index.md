@@ -13,11 +13,5 @@ Front-end - NextJs v13
 - Client components
 - Tailwind CSS
 
-Authentication
-bycrpt and MongoDB
-
-Back-end - json server with mock-data for tickets section
-
-
-
-
+- Authentication
+- API routes -  json server with mock-data for tickets section
