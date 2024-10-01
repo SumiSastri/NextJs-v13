@@ -40,5 +40,5 @@ _Repo access & scripts_
 Frontend dev server`npm run dev`
 Open [http://localhost:3000](http://localhost:3000) with your browser.
 
-Backend `json-server --watch --port 4000 ./_db/db.json` 
+Backend as the installation is ephemeral you need to run `npm install json-server -g` to get the server to work then run `json-server --watch --port 4000 ./_db/db.json` 
 Open [http://localhost:4000/tickets](http://localhost:4000/tickets) with your browser.
